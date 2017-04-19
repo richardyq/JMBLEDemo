@@ -26,6 +26,7 @@
     HomePageTableTableViewController* homeTableViewController = [[HomePageTableTableViewController alloc] initWithStyle:UITableViewStylePlain];
     UINavigationController* rootNavigationController = [[UINavigationController alloc] initWithRootViewController:homeTableViewController];
     [self.window setRootViewController:rootNavigationController];
+    [rootNavigationController.navigationBar setTranslucent:NO];
     
     return YES;
 }

@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  JYBleDemo
+//
+//  Created by yinquan on 17/4/18.
+//  Copyright © 2017年 yinquan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#pragma mark - 第三方库
+#import "Masonry.h"
+
+
+#import "CommonInc.h"
+#import "BleDetectViewController.h"
+
+#endif /* PrefixHeader_pch */

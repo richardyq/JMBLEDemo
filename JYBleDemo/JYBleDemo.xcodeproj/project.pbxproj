@@ -7,14 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		272D2B861EA741D400C38805 /* YuwellBloodPressureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D2B851EA741D400C38805 /* YuwellBloodPressureViewController.m */; };
+		272D2B891EA7427B00C38805 /* YuwellBloodPressureBluUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D2B881EA7427B00C38805 /* YuwellBloodPressureBluUtil.m */; };
+		272D2B8C1EA7460200C38805 /* BleDetectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D2B8B1EA7460200C38805 /* BleDetectViewController.m */; };
+		272D2B8F1EA7597200C38805 /* BloodPressureRetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D2B8E1EA7597200C38805 /* BloodPressureRetModel.m */; };
+		272D2B921EA760E600C38805 /* BloodPressureDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D2B911EA760E600C38805 /* BloodPressureDetectingView.m */; };
+		272D2B951EA7637800C38805 /* BloodPressureResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D2B941EA7637800C38805 /* BloodPressureResultView.m */; };
 		278EF4191EA5F6E30026AAB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 278EF4181EA5F6E30026AAB9 /* main.m */; };
 		278EF41C1EA5F6E30026AAB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 278EF41B1EA5F6E30026AAB9 /* AppDelegate.m */; };
 		278EF4241EA5F6E30026AAB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278EF4231EA5F6E30026AAB9 /* Assets.xcassets */; };
 		278EF4271EA5F6E30026AAB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278EF4251EA5F6E30026AAB9 /* LaunchScreen.storyboard */; };
 		278EF4321EA5F7660026AAB9 /* HomePageTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278EF4311EA5F7660026AAB9 /* HomePageTableTableViewController.m */; };
+		278EF4371EA5F94D0026AAB9 /* FSRKBodyTemperatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278EF4361EA5F94D0026AAB9 /* FSRKBodyTemperatureViewController.m */; };
+		278EF43B1EA5F9850026AAB9 /* JYBleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 278EF43A1EA5F9850026AAB9 /* JYBleUtil.m */; };
+		278EF4401EA5FD030026AAB9 /* FSRKBodyTemperatureBleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 278EF43F1EA5FD030026AAB9 /* FSRKBodyTemperatureBleUtil.m */; };
+		278EF4441EA613EE0026AAB9 /* NSData+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 278EF4431EA613EE0026AAB9 /* NSData+HexString.m */; };
+		278EF4491EA617920026AAB9 /* UIViewController+AlertExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 278EF4481EA617920026AAB9 /* UIViewController+AlertExtension.m */; };
+		4E3AF87343416C1A71B5E832 /* libPods-JYBleDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71079E661A0055CB48B748FF /* libPods-JYBleDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F113740496D661B325E76F4 /* Pods-JYBleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYBleDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYBleDemo/Pods-JYBleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		272D2B841EA741D400C38805 /* YuwellBloodPressureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuwellBloodPressureViewController.h; sourceTree = "<group>"; };
+		272D2B851EA741D400C38805 /* YuwellBloodPressureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuwellBloodPressureViewController.m; sourceTree = "<group>"; };
+		272D2B871EA7427B00C38805 /* YuwellBloodPressureBluUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuwellBloodPressureBluUtil.h; sourceTree = "<group>"; };
+		272D2B881EA7427B00C38805 /* YuwellBloodPressureBluUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuwellBloodPressureBluUtil.m; sourceTree = "<group>"; };
+		272D2B8A1EA7460200C38805 /* BleDetectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BleDetectViewController.h; sourceTree = "<group>"; };
+		272D2B8B1EA7460200C38805 /* BleDetectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BleDetectViewController.m; sourceTree = "<group>"; };
+		272D2B8D1EA7597200C38805 /* BloodPressureRetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureRetModel.h; sourceTree = "<group>"; };
+		272D2B8E1EA7597200C38805 /* BloodPressureRetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureRetModel.m; sourceTree = "<group>"; };
+		272D2B901EA760E600C38805 /* BloodPressureDetectingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureDetectingView.h; sourceTree = "<group>"; };
+		272D2B911EA760E600C38805 /* BloodPressureDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureDetectingView.m; sourceTree = "<group>"; };
+		272D2B931EA7637800C38805 /* BloodPressureResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureResultView.h; sourceTree = "<group>"; };
+		272D2B941EA7637800C38805 /* BloodPressureResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureResultView.m; sourceTree = "<group>"; };
 		278EF4141EA5F6E30026AAB9 /* JYBleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYBleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		278EF4181EA5F6E30026AAB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		278EF41A1EA5F6E30026AAB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -24,6 +49,22 @@
 		278EF4281EA5F6E30026AAB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		278EF4301EA5F7660026AAB9 /* HomePageTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageTableTableViewController.h; sourceTree = "<group>"; };
 		278EF4311EA5F7660026AAB9 /* HomePageTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageTableTableViewController.m; sourceTree = "<group>"; };
+		278EF4351EA5F94D0026AAB9 /* FSRKBodyTemperatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSRKBodyTemperatureViewController.h; sourceTree = "<group>"; };
+		278EF4361EA5F94D0026AAB9 /* FSRKBodyTemperatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSRKBodyTemperatureViewController.m; sourceTree = "<group>"; };
+		278EF4391EA5F9850026AAB9 /* JYBleUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBleUtil.h; sourceTree = "<group>"; };
+		278EF43A1EA5F9850026AAB9 /* JYBleUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBleUtil.m; sourceTree = "<group>"; };
+		278EF43C1EA5FBCC0026AAB9 /* BleUtilStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BleUtilStatus.h; path = JYBleDemo/BleUtil/BleUtilStatus.h; sourceTree = SOURCE_ROOT; };
+		278EF43D1EA5FC760026AAB9 /* JYBleUtilDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBleUtilDelegate.h; sourceTree = "<group>"; };
+		278EF43E1EA5FD030026AAB9 /* FSRKBodyTemperatureBleUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSRKBodyTemperatureBleUtil.h; sourceTree = "<group>"; };
+		278EF43F1EA5FD030026AAB9 /* FSRKBodyTemperatureBleUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSRKBodyTemperatureBleUtil.m; sourceTree = "<group>"; };
+		278EF4411EA6022D0026AAB9 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		278EF4421EA613EE0026AAB9 /* NSData+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+HexString.h"; sourceTree = "<group>"; };
+		278EF4431EA613EE0026AAB9 /* NSData+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+HexString.m"; sourceTree = "<group>"; };
+		278EF4471EA617920026AAB9 /* UIViewController+AlertExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AlertExtension.h"; sourceTree = "<group>"; };
+		278EF4481EA617920026AAB9 /* UIViewController+AlertExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertExtension.m"; sourceTree = "<group>"; };
+		278EF44A1EA6179F0026AAB9 /* CommonInc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonInc.h; sourceTree = "<group>"; };
+		3F354727C0F1FEFB1ECB2538 /* Pods-JYBleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYBleDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYBleDemo/Pods-JYBleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		71079E661A0055CB48B748FF /* libPods-JYBleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JYBleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +72,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3AF87343416C1A71B5E832 /* libPods-JYBleDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20922DA73F1036A55C0F96FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F354727C0F1FEFB1ECB2538 /* Pods-JYBleDemo.debug.xcconfig */,
+				1F113740496D661B325E76F4 /* Pods-JYBleDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		272D2B821EA7410600C38805 /* YuwellBloodPressure */ = {
+			isa = PBXGroup;
+			children = (
+				272D2B831EA7410600C38805 /* ViewController */,
+			);
+			path = YuwellBloodPressure;
+			sourceTree = "<group>";
+		};
+		272D2B831EA7410600C38805 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				272D2B841EA741D400C38805 /* YuwellBloodPressureViewController.h */,
+				272D2B851EA741D400C38805 /* YuwellBloodPressureViewController.m */,
+				272D2B901EA760E600C38805 /* BloodPressureDetectingView.h */,
+				272D2B911EA760E600C38805 /* BloodPressureDetectingView.m */,
+				272D2B931EA7637800C38805 /* BloodPressureResultView.h */,
+				272D2B941EA7637800C38805 /* BloodPressureResultView.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		278EF40B1EA5F6E30026AAB9 = {
 			isa = PBXGroup;
 			children = (
 				278EF4161EA5F6E30026AAB9 /* JYBleDemo */,
 				278EF4151EA5F6E30026AAB9 /* Products */,
+				20922DA73F1036A55C0F96FD /* Pods */,
+				D0AB54E8ABE4525B93C55B20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +132,10 @@
 			children = (
 				278EF41A1EA5F6E30026AAB9 /* AppDelegate.h */,
 				278EF41B1EA5F6E30026AAB9 /* AppDelegate.m */,
+				278EF4451EA6177E0026AAB9 /* Common */,
+				278EF4381EA5F9720026AAB9 /* BleUtil */,
+				278EF4331EA5F9370026AAB9 /* FSRKBodyTemperature */,
+				272D2B821EA7410600C38805 /* YuwellBloodPressure */,
 				278EF42E1EA5F7500026AAB9 /* HomePage */,
 				278EF4231EA5F6E30026AAB9 /* Assets.xcassets */,
 				278EF4251EA5F6E30026AAB9 /* LaunchScreen.storyboard */,
@@ -71,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				278EF4181EA5F6E30026AAB9 /* main.m */,
+				278EF4411EA6022D0026AAB9 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -79,6 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				278EF42F1EA5F7500026AAB9 /* ViewController */,
+				272D2B8A1EA7460200C38805 /* BleDetectViewController.h */,
+				272D2B8B1EA7460200C38805 /* BleDetectViewController.m */,
 			);
 			path = HomePage;
 			sourceTree = "<group>";
@@ -92,6 +173,68 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		278EF4331EA5F9370026AAB9 /* FSRKBodyTemperature */ = {
+			isa = PBXGroup;
+			children = (
+				278EF4341EA5F9370026AAB9 /* ViewController */,
+			);
+			path = FSRKBodyTemperature;
+			sourceTree = "<group>";
+		};
+		278EF4341EA5F9370026AAB9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				278EF4351EA5F94D0026AAB9 /* FSRKBodyTemperatureViewController.h */,
+				278EF4361EA5F94D0026AAB9 /* FSRKBodyTemperatureViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		278EF4381EA5F9720026AAB9 /* BleUtil */ = {
+			isa = PBXGroup;
+			children = (
+				278EF4391EA5F9850026AAB9 /* JYBleUtil.h */,
+				278EF43A1EA5F9850026AAB9 /* JYBleUtil.m */,
+				278EF43C1EA5FBCC0026AAB9 /* BleUtilStatus.h */,
+				278EF43D1EA5FC760026AAB9 /* JYBleUtilDelegate.h */,
+				278EF43E1EA5FD030026AAB9 /* FSRKBodyTemperatureBleUtil.h */,
+				278EF43F1EA5FD030026AAB9 /* FSRKBodyTemperatureBleUtil.m */,
+				272D2B871EA7427B00C38805 /* YuwellBloodPressureBluUtil.h */,
+				272D2B881EA7427B00C38805 /* YuwellBloodPressureBluUtil.m */,
+				278EF4421EA613EE0026AAB9 /* NSData+HexString.h */,
+				278EF4431EA613EE0026AAB9 /* NSData+HexString.m */,
+				272D2B8D1EA7597200C38805 /* BloodPressureRetModel.h */,
+				272D2B8E1EA7597200C38805 /* BloodPressureRetModel.m */,
+			);
+			path = BleUtil;
+			sourceTree = "<group>";
+		};
+		278EF4451EA6177E0026AAB9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				278EF4461EA6177E0026AAB9 /* Category */,
+				278EF44A1EA6179F0026AAB9 /* CommonInc.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		278EF4461EA6177E0026AAB9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				278EF4471EA617920026AAB9 /* UIViewController+AlertExtension.h */,
+				278EF4481EA617920026AAB9 /* UIViewController+AlertExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D0AB54E8ABE4525B93C55B20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71079E661A0055CB48B748FF /* libPods-JYBleDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 278EF42B1EA5F6E30026AAB9 /* Build configuration list for PBXNativeTarget "JYBleDemo" */;
 			buildPhases = (
+				B66DC7F3934B55208A44357D /* [CP] Check Pods Manifest.lock */,
 				278EF4101EA5F6E30026AAB9 /* Sources */,
 				278EF4111EA5F6E30026AAB9 /* Frameworks */,
 				278EF4121EA5F6E30026AAB9 /* Resources */,
+				2EC29DAED596DD08F70EC0F5 /* [CP] Embed Pods Frameworks */,
+				1AB29B5C5555CA227FA0C807 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,14 +304,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AB29B5C5555CA227FA0C807 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JYBleDemo/Pods-JYBleDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EC29DAED596DD08F70EC0F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JYBleDemo/Pods-JYBleDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B66DC7F3934B55208A44357D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		278EF4101EA5F6E30026AAB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				278EF41C1EA5F6E30026AAB9 /* AppDelegate.m in Sources */,
+				272D2B921EA760E600C38805 /* BloodPressureDetectingView.m in Sources */,
 				278EF4191EA5F6E30026AAB9 /* main.m in Sources */,
+				272D2B861EA741D400C38805 /* YuwellBloodPressureViewController.m in Sources */,
+				272D2B891EA7427B00C38805 /* YuwellBloodPressureBluUtil.m in Sources */,
+				272D2B951EA7637800C38805 /* BloodPressureResultView.m in Sources */,
+				278EF4401EA5FD030026AAB9 /* FSRKBodyTemperatureBleUtil.m in Sources */,
+				278EF4491EA617920026AAB9 /* UIViewController+AlertExtension.m in Sources */,
+				278EF4441EA613EE0026AAB9 /* NSData+HexString.m in Sources */,
+				272D2B8F1EA7597200C38805 /* BloodPressureRetModel.m in Sources */,
 				278EF4321EA5F7660026AAB9 /* HomePageTableTableViewController.m in Sources */,
+				278EF4371EA5F94D0026AAB9 /* FSRKBodyTemperatureViewController.m in Sources */,
+				272D2B8C1EA7460200C38805 /* BleDetectViewController.m in Sources */,
+				278EF43B1EA5F9850026AAB9 /* JYBleUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -264,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -273,10 +478,13 @@
 		};
 		278EF42C1EA5F6E30026AAB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F354727C0F1FEFB1ECB2538 /* Pods-JYBleDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6HVGQ2T7S8;
+				GCC_PREFIX_HEADER = JYBleDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = JYBleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.juyue.JYBleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,10 +493,13 @@
 		};
 		278EF42D1EA5F6E30026AAB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F113740496D661B325E76F4 /* Pods-JYBleDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6HVGQ2T7S8;
+				GCC_PREFIX_HEADER = JYBleDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = JYBleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.juyue.JYBleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -314,6 +525,7 @@
 				278EF42D1EA5F6E30026AAB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

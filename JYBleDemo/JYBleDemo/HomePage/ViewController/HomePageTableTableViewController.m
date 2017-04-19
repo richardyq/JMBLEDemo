@@ -7,6 +7,8 @@
 //
 
 #import "HomePageTableTableViewController.h"
+#import "FSRKBodyTemperatureViewController.h"
+#import "YuwellBloodPressureViewController.h"
 
 @interface HomePageTableTableViewController ()
 
@@ -15,6 +17,7 @@
 typedef NS_ENUM(NSUInteger, BlueToothDevice) {
     FSRK_BodyTemperature,
     Holtek_BodyWeight,
+    Yuwell_BloodPressure,
     BlueToothDeviceCount,
 };
 
@@ -46,6 +49,11 @@ typedef NS_ENUM(NSUInteger, BlueToothDevice) {
             cellTitle = @"Hotlek体脂称";
             break;
         }
+        case Yuwell_BloodPressure:
+        {
+            cellTitle = @"鱼跃血压计";
+            break;
+        }
     }
     return cellTitle;
 }
@@ -75,5 +83,27 @@ typedef NS_ENUM(NSUInteger, BlueToothDevice) {
     return cell;
 }
 
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    switch (indexPath.row)
+    {
+        case FSRK_BodyTemperature:
+        {
+            //飞斯瑞克体温计
+            FSRKBodyTemperatureViewController* detectViewController = [[FSRKBodyTemperatureViewController alloc] initWithNibName:nil bundle:nil];
+            [self.navigationController pushViewController:detectViewController animated:YES];
+            break;
+        }
+        case Yuwell_BloodPressure:
+        {
+            //鱼跃血压计
+            YuwellBloodPressureViewController* detectViewController =[[YuwellBloodPressureViewController alloc] initWithNibName:nil bundle:nil];
+            [self.navigationController pushViewController:detectViewController animated:YES];
+            break;
+        }
+        default:
+            break;
+    }
+}
 
 @end
