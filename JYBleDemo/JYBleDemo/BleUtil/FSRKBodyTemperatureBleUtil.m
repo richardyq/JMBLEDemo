@@ -104,13 +104,17 @@
     NSString* tempDataString = [tempData hexString];
     NSLog(@"tempDataString %@", tempDataString);
     
+    tempData = [tempData reverse];
     int16_t temperatureInt16;
+    
     [tempData getBytes: &temperatureInt16 length:sizeof(temperatureInt16)];
+    NSLog(@"temperatureInt16 %X, %d", temperatureInt16, temperatureInt16);
     CGFloat tempValue = temperatureInt16;
     tempValue /= 10;
     temperatureValue = tempValue;
     if (!detectingTimer) {
-        detectingTimer = [NSTimer timerWithTimeInterval:2.0 target:self selector:@selector(detectingTimerFunc) userInfo:nil repeats:NO];
+
+        detectingTimer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(detectingTimerFunc) userInfo:nil repeats:NO];
     }
 }
 

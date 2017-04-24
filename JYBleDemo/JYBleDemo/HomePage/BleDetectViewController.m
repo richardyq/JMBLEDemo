@@ -11,7 +11,7 @@
 
 @interface BleDetectViewController ()
 
-@property (nonatomic, readonly) UILabel* statusLable;
+
 
 @end
 

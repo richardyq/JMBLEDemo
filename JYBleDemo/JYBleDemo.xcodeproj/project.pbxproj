@@ -13,6 +13,8 @@
 		272D2B8F1EA7597200C38805 /* BloodPressureRetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D2B8E1EA7597200C38805 /* BloodPressureRetModel.m */; };
 		272D2B921EA760E600C38805 /* BloodPressureDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D2B911EA760E600C38805 /* BloodPressureDetectingView.m */; };
 		272D2B951EA7637800C38805 /* BloodPressureResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D2B941EA7637800C38805 /* BloodPressureResultView.m */; };
+		2736EA6C1EA895ED0068B932 /* HoltekBodyWeightBleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2736EA6B1EA895ED0068B932 /* HoltekBodyWeightBleUtil.m */; };
+		2736EA711EA896AA0068B932 /* HoltekBodyWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2736EA701EA896AA0068B932 /* HoltekBodyWeightViewController.m */; };
 		278EF4191EA5F6E30026AAB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 278EF4181EA5F6E30026AAB9 /* main.m */; };
 		278EF41C1EA5F6E30026AAB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 278EF41B1EA5F6E30026AAB9 /* AppDelegate.m */; };
 		278EF4241EA5F6E30026AAB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278EF4231EA5F6E30026AAB9 /* Assets.xcassets */; };
@@ -40,6 +42,10 @@
 		272D2B911EA760E600C38805 /* BloodPressureDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureDetectingView.m; sourceTree = "<group>"; };
 		272D2B931EA7637800C38805 /* BloodPressureResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureResultView.h; sourceTree = "<group>"; };
 		272D2B941EA7637800C38805 /* BloodPressureResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureResultView.m; sourceTree = "<group>"; };
+		2736EA6A1EA895ED0068B932 /* HoltekBodyWeightBleUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoltekBodyWeightBleUtil.h; sourceTree = "<group>"; };
+		2736EA6B1EA895ED0068B932 /* HoltekBodyWeightBleUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoltekBodyWeightBleUtil.m; sourceTree = "<group>"; };
+		2736EA6F1EA896AA0068B932 /* HoltekBodyWeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoltekBodyWeightViewController.h; sourceTree = "<group>"; };
+		2736EA701EA896AA0068B932 /* HoltekBodyWeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoltekBodyWeightViewController.m; sourceTree = "<group>"; };
 		278EF4141EA5F6E30026AAB9 /* JYBleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYBleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		278EF4181EA5F6E30026AAB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		278EF41A1EA5F6E30026AAB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +115,23 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		2736EA6D1EA896800068B932 /* HoltekBodyWeight */ = {
+			isa = PBXGroup;
+			children = (
+				2736EA6E1EA896800068B932 /* ViewController */,
+			);
+			path = HoltekBodyWeight;
+			sourceTree = "<group>";
+		};
+		2736EA6E1EA896800068B932 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2736EA6F1EA896AA0068B932 /* HoltekBodyWeightViewController.h */,
+				2736EA701EA896AA0068B932 /* HoltekBodyWeightViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		278EF40B1EA5F6E30026AAB9 = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +159,7 @@
 				278EF4381EA5F9720026AAB9 /* BleUtil */,
 				278EF4331EA5F9370026AAB9 /* FSRKBodyTemperature */,
 				272D2B821EA7410600C38805 /* YuwellBloodPressure */,
+				2736EA6D1EA896800068B932 /* HoltekBodyWeight */,
 				278EF42E1EA5F7500026AAB9 /* HomePage */,
 				278EF4231EA5F6E30026AAB9 /* Assets.xcassets */,
 				278EF4251EA5F6E30026AAB9 /* LaunchScreen.storyboard */,
@@ -201,6 +225,8 @@
 				278EF43F1EA5FD030026AAB9 /* FSRKBodyTemperatureBleUtil.m */,
 				272D2B871EA7427B00C38805 /* YuwellBloodPressureBluUtil.h */,
 				272D2B881EA7427B00C38805 /* YuwellBloodPressureBluUtil.m */,
+				2736EA6A1EA895ED0068B932 /* HoltekBodyWeightBleUtil.h */,
+				2736EA6B1EA895ED0068B932 /* HoltekBodyWeightBleUtil.m */,
 				278EF4421EA613EE0026AAB9 /* NSData+HexString.h */,
 				278EF4431EA613EE0026AAB9 /* NSData+HexString.m */,
 				272D2B8D1EA7597200C38805 /* BloodPressureRetModel.h */,
@@ -358,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				278EF41C1EA5F6E30026AAB9 /* AppDelegate.m in Sources */,
+				2736EA6C1EA895ED0068B932 /* HoltekBodyWeightBleUtil.m in Sources */,
 				272D2B921EA760E600C38805 /* BloodPressureDetectingView.m in Sources */,
 				278EF4191EA5F6E30026AAB9 /* main.m in Sources */,
 				272D2B861EA741D400C38805 /* YuwellBloodPressureViewController.m in Sources */,
@@ -370,6 +397,7 @@
 				278EF4321EA5F7660026AAB9 /* HomePageTableTableViewController.m in Sources */,
 				278EF4371EA5F94D0026AAB9 /* FSRKBodyTemperatureViewController.m in Sources */,
 				272D2B8C1EA7460200C38805 /* BleDetectViewController.m in Sources */,
+				2736EA711EA896AA0068B932 /* HoltekBodyWeightViewController.m in Sources */,
 				278EF43B1EA5F9850026AAB9 /* JYBleUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

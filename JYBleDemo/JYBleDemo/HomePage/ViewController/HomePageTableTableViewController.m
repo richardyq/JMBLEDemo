@@ -9,6 +9,7 @@
 #import "HomePageTableTableViewController.h"
 #import "FSRKBodyTemperatureViewController.h"
 #import "YuwellBloodPressureViewController.h"
+#import "HoltekBodyWeightViewController.h"
 
 @interface HomePageTableTableViewController ()
 
@@ -91,6 +92,12 @@ typedef NS_ENUM(NSUInteger, BlueToothDevice) {
         {
             //飞斯瑞克体温计
             FSRKBodyTemperatureViewController* detectViewController = [[FSRKBodyTemperatureViewController alloc] initWithNibName:nil bundle:nil];
+            [self.navigationController pushViewController:detectViewController animated:YES];
+            break;
+        }
+        case Holtek_BodyWeight:
+        {
+            HoltekBodyWeightViewController* detectViewController = [[HoltekBodyWeightViewController alloc] initWithNibName:nil bundle:nil];
             [self.navigationController pushViewController:detectViewController animated:YES];
             break;
         }

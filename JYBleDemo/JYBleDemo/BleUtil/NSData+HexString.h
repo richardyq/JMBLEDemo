@@ -12,6 +12,6 @@
 
 - (NSString *) hexString;
 
-
+- (NSData*) reverse;    //反序
 
 @end

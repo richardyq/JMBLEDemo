@@ -79,4 +79,22 @@
     return hexString;
 }
 
+- (NSData*) reverse
+{
+    NSData* data = nil;
+    if (self.length == 0)
+    {
+        return data;
+    }
+    
+    const char* bytes = [self bytes];
+    Byte* reverseBytes = alloca(self.length);
+    for (NSInteger index = 0; index < self.length; ++index)
+    {
+        reverseBytes[self.length - index - 1] = bytes[index];
+    }
+    
+    data = [NSData dataWithBytes:reverseBytes length:self.length];
+    return data;
+}
 @end

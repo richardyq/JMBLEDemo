@@ -117,6 +117,11 @@
 - (void) stopScanDevice
 {
     [manager stopScan];
+    if (scanTimer)
+    {
+        [scanTimer invalidate];
+        scanTimer = nil;
+    }
 }
 
 - (BOOL) checkDeviceName:(NSString*) deviceName
@@ -304,7 +309,7 @@
 - (void)centralManager:(CBCentralManager *)central didDisconnectPeripheral:(CBPeripheral *)peripheral error:(nullable NSError *)error
 {
     //设备连接断开
-    if (_delegate && [_delegate respondsToSelector:@selector(bleDeviceScanned)])
+    if (_delegate && [_delegate respondsToSelector:@selector(bleDisConnected)])
     {
         [_delegate bleDisConnected];
     }

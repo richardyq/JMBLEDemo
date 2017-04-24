@@ -13,6 +13,6 @@
 {
     
 }
-
+@property (nonatomic, readonly) UILabel* statusLable;
 @property (nonatomic, readonly) JYBleUtil* bleUtil;
 @end

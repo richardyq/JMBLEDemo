@@ -15,9 +15,9 @@
     FSRKBodyTemperatureBleUtil* bleUtil;
 }
 
-@property (nonatomic, readonly) UILabel* statusLable;
-@property (nonatomic, readonly) UILabel* temperatureLable;
 
+@property (nonatomic, readonly) UILabel* temperatureLable;
+@property (nonatomic, readonly) UILabel* statusLable;
 @end
 
 @implementation FSRKBodyTemperatureViewController
